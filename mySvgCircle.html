@@ -1,0 +1,24 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g>
+		<circle 
+			main-circle=""
+			ng-attr-cx="{{circleShape.cx}}" 
+			ng-attr-cy="{{circleShape.cy}}" 
+			ng-attr-r= "{{computeRadius()}}"
+			ng-attr-fill= "{{circleShape.fill}}"
+			ng-attr-stroke= "{{circleShape.stroke}}"
+			stroke-width="2"
+		></circle>
+		
+		<circle 
+		    circle-ctrl=""
+			ng-attr-cx="{{radiusCtrl.cx}}" 
+			ng-attr-cy="{{radiusCtrl.cy}}" 
+			ng-attr-r= "{{radiusCtrl.r}}"
+			ng-attr-fill= "{{radiusCtrl.fill}}"
+			ng-attr-stroke= "{{radiusCtrl.stroke}}"
+			stroke-width="2"
+		></circle>
+	
+	</g>
+</svg>
